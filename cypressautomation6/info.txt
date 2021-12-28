@@ -1,0 +1,49 @@
+npm init --- node (package.json)
+npm install cypress
+npm install npx
+npx cypress open
+//------------------------->
+//  javascript node ....
+
+// npm init ???
+
+// package.json  ---->
+//  why package.json?
+
+
+//------------------------->
+
+
+code start --- cypress 6.0 
+
+npm install cypress  
+npm istall npx 
+npm install jquery 
+npm install angular
+
+
+//------- install------- where it gets install?
+
+List ----> package.json
+
+//First ----->  npm init  --- package.json
+
+//Second  ----> package.json --- dependency listed 
+
+//Third ---> npm install --- package.json (dependency) -- node_module
+
+//Four ----> npx cypress open (browser)
+
+//Five -----> npx cypress run  (headless mode)
+
+(headless) --- fail --- screenshot----> videos
+
+// Six ---- npx cypress run --headed --browser chrome
+
+// Seven  ---   npx cypress run  --browser chrome
+
+//Tags --- commands
+
+//npm run (tagName --> running script)
+
+

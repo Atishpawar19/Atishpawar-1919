@@ -1,0 +1,24 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runner":"npx cypress open",
+    "headless":"npx cypress run",
+    "chrome":"npx cypress run --headed --browser chrome",
+    "headlesschrome":"npx cypress run  --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.7.0",
+    "jquery": "^3.6.0",
+    "npx": "^10.2.2"
+  },
+
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.19.5"
+  }
+}
